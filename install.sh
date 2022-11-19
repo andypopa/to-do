@@ -1,3 +1,4 @@
+brew install watch
 brew install the_silver_searcher
 git clone https://github.com/andypopa/to-do.git
 cd to-do
