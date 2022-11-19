@@ -1,5 +1,5 @@
 # to-do
-A tool for minimalist language-agnostic project management that displays the files containing lines with the substring "TO DO" and the respective lines and updates the list in real-time as they are added or deleted to the files in the working directory.
+A tool for minimalist language-agnostic project management that displays the files containing lines with the substring "TO DO" and the aforementioned lines and updates the list in real-time as they are added or deleted to the files in the working directory.
 
 ## Prerequisites
  - macOS (although it will work on Linux if the dependencies below are installed manually)
@@ -10,7 +10,7 @@ This only works on macOS at the moment as it attempts to install the_silver_sear
 On Linux, watch is probably already installed & you'd most likely have to install ag by yourself.
 
 ## Installation
-Install the script using one of the methods below. This will pull the git repository and symlink the script in /usr/local/bin so you can just go to any directory and type `to-do` to start monitoring its contents.
+Install the script using one of the methods below. This will pull the git repository and symlink the script in `/usr/local/bin` so you can just go to any directory and type `to-do` to start monitoring its contents.
 
 ### Using cURL
 `curl -o- https://raw.githubusercontent.com/andypopa/to-do/master/install.sh | $SHELL`
