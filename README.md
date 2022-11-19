@@ -1,5 +1,9 @@
 # Installation
-`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | $SHELL`
+## Using cURL
+`curl -o- https://raw.githubusercontent.com/andypopa/to-do/master/install.sh | $SHELL`
+
+## Using wget
+`curl -qO- https://raw.githubusercontent.com/andypopa/to-do/master/install.sh | $SHELL`
 
 # Usage
 Open a terminal, go to your project directory or the subdirectory you are working on and type `to-do`.
