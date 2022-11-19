@@ -1,3 +1,7 @@
+# Prerequisites
+This only works on macOS at the moment as it attempts to install the_silver_searcher (ag) and watch.
+On Linux, watch is probably already installed & you'd have to install ag by yourself.
+
 # Installation
 ## Using cURL
 `curl -o- https://raw.githubusercontent.com/andypopa/to-do/master/install.sh | $SHELL`
