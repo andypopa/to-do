@@ -10,6 +10,8 @@ This only works on macOS at the moment as it attempts to install the_silver_sear
 On Linux, watch is probably already installed & you'd most likely have to install ag by yourself.
 
 ## Installation
+Install the script using one of the methods below. This will pull the git repository and symlink the script in /usr/local/bin so you can just go to any directory and type `to-do` to start monitoring its contents.
+
 ### Using cURL
 `curl -o- https://raw.githubusercontent.com/andypopa/to-do/master/install.sh | $SHELL`
 
